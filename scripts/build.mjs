@@ -10,8 +10,9 @@ const FILES = ["background.js", "content.js", "content.css", "defaults.js", "pop
 const manifest = JSON.parse(readFileSync(join(root, "manifest.json"), "utf8"));
 const NAME = "i-will-wait-for-gta6-pc";
 const dist = join(root, "dist");
-rmSync(dist, { recursive: true, force: true });
-mkdirSync(dist);
+// Only clear what this script makes, so other files kept in dist/ (e.g. store assets) survive.
+mkdirSync(dist, { recursive: true });
+for (const target of ["chrome", "firefox"]) rmSync(join(dist, target), { recursive: true, force: true });
 
 function pack(target, m) {
   const dir = join(dist, target);
@@ -19,6 +20,7 @@ function pack(target, m) {
   for (const f of FILES) cpSync(join(root, f), join(dir, f), { recursive: true });
   writeFileSync(join(dir, "manifest.json"), JSON.stringify(m, null, 2) + "\n");
   const zip = join(dist, `${NAME}-${target}-${m.version}.zip`);
+  rmSync(zip, { force: true });
   execFileSync("zip", ["-qr", zip, "."], { cwd: dir });
   console.log("built", zip);
 }
