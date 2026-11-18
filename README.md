@@ -1,4 +1,4 @@
-# I will wait for GTA 6 PC: GTA 6 spoiler blocker for Chrome
+# I will wait for GTA 6 PC: GTA 6 spoiler blocker for Chrome and Firefox
 
 ![I will wait for GTA 6 on PC - Chrome extension that hides GTA 6 spoilers](assets/banner.jpg)
 
@@ -53,7 +53,7 @@ Requires Firefox 128 or newer.
 
 Default keywords: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
 
-The interface is in Turkish when Chrome is set to Turkish, and English otherwise.
+The interface is in Turkish or Azerbaijani when your browser is set to that language, and English otherwise.
 
 ## Privacy
 The extension collects no data and makes no network requests. Your settings stay in Chrome storage.

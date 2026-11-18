@@ -1,4 +1,4 @@
-# GTA 6 PC'yi Bekleyeceğim: Chrome için GTA 6 spoiler engelleyici
+# GTA 6 PC'yi Bekleyeceğim: Chrome ve Firefox için GTA 6 spoiler engelleyici
 
 ![GTA 6 PC'yi Bekleyeceğim - GTA 6 spoilerlarını gizleyen Chrome eklentisi](assets/banner.jpg)
 
@@ -52,7 +52,7 @@ Firefox 128 veya daha yenisi gerekir.
 
 Varsayılan anahtar kelimeler: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
 
-Arayüz, Chrome dili Türkçe ise Türkçe, değilse İngilizce görünür.
+Arayüz, tarayıcı dili Türkçe veya Azerbaycanca ise o dilde, değilse İngilizce görünür.
 
 ## Sınırlamalar
 - Resim veya video karelerinin içine çizilmiş yazılar okunamaz; sadece çevresindeki metin kontrol edilir.

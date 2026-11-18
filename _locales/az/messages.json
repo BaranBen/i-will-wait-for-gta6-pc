@@ -1,0 +1,104 @@
+{
+  "extName": {
+    "message": "GTA 6-nı PC-də Gözləyəcəyəm"
+  },
+  "extDescription": {
+    "message": "Daxil olduğun səhifələrdə GTA 6 ilə bağlı hər şeyi gizlədir və ya silir ki, PC versiyasını rahat gözləyə biləsən."
+  },
+  "popupSubtitle": {
+    "message": "PC versiyasını rahatca gözləyirik."
+  },
+  "hiddenOnPage": {
+    "message": "Bu səhifədə gizlədilən"
+  },
+  "blockingOn": {
+    "message": "Bloklama aktivdir"
+  },
+  "whatToDo": {
+    "message": "Nə edilsin"
+  },
+  "modeHide": {
+    "message": "Gizlət"
+  },
+  "modeRemove": {
+    "message": "Səhifədən sil"
+  },
+  "coverPage": {
+    "message": "Başlıq uyğun gələrsə, bütün səhifəni bağla"
+  },
+  "keywordsLabel": {
+    "message": "Açar sözlər (hər sətirdə bir)"
+  },
+  "keywordsHint": {
+    "message": "Boşluqlar tire, nöqtə və alt xətt ilə də uyğunlaşır, yəni \"GTA 6\" \"gta-6\" yazısını da tutur. Böyük/kiçik hərf fərq etmir."
+  },
+  "pauseSite": {
+    "message": "Bu saytda dayandır"
+  },
+  "resumeSite": {
+    "message": "Bu saytda davam et"
+  },
+  "save": {
+    "message": "Yadda saxla"
+  },
+  "saved": {
+    "message": "Yadda saxlanıldı"
+  },
+  "statusOn": {
+    "message": "Bloklama aktivdir"
+  },
+  "statusOff": {
+    "message": "Bloklama deaktivdir"
+  },
+  "modeSaved": {
+    "message": "Yadda saxlanıldı. Silinənləri qaytarmaq üçün səhifəni yenilə."
+  },
+  "keywordsSaved": {
+    "message": "$COUNT$ açar söz yadda saxlanıldı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pausedOn": {
+    "message": "$HOST$ saytında dayandırıldı",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "resumedOn": {
+    "message": "$HOST$ saytında bloklama yenidən aktivdir",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "overlayTitle": {
+    "message": "Spoiler bloklandı"
+  },
+  "overlayText": {
+    "message": "Bu səhifə PC-də gözlədiyin oyunla bağlı görünür. Dözmək lazımdır, az qalıb."
+  },
+  "overlayBack": {
+    "message": "Məni buradan çıxar"
+  },
+  "overlayShow": {
+    "message": "Yenə də bu səhifəni göstər"
+  },
+  "aggressive": {
+    "message": "Aqressiv rejim"
+  },
+  "aggressiveHint": {
+    "message": "Yalnız GTA 6-nı yox, bütün Grand Theft Auto oyunlarını blokla (GTA V, GTA Online, San Andreas...)"
+  },
+  "aggressiveOn": {
+    "message": "Aqressiv rejim aktivdir: bütün GTA məzmunu bloklanır"
+  },
+  "aggressiveOff": {
+    "message": "Aqressiv rejim deaktivdir: yalnız GTA 6 bloklanır"
+  }
+}
