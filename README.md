@@ -2,7 +2,11 @@
 
 ![I will wait for GTA 6 on PC - Chrome extension that hides GTA 6 spoilers](assets/banner.jpg)
 
-[Türkçe](README.tr.md)
+<p align="center">
+  <a href="README.md"><img src="assets/lang/en-active.svg" alt="English" height="36"></a>
+  <a href="README.tr.md"><img src="assets/lang/tr.svg" alt="Türkçe" height="36"></a>
+  <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
+</p>
 
 **GTA 6 spoiler blocker** for Chrome, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console
 release spoiled? This free, open source extension hides **GTA 6 / GTA VI / Grand Theft Auto 6** spoilers, trailers,
