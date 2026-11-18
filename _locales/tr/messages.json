@@ -1,0 +1,104 @@
+{
+  "extName": {
+    "message": "GTA 6 PC'yi Bekleyeceğim"
+  },
+  "extDescription": {
+    "message": "Gezdiğin sayfalardaki GTA 6 ile ilgili her şeyi gizler veya siler, böylece PC sürümünü huzur içinde bekleyebilirsin."
+  },
+  "popupSubtitle": {
+    "message": "PC sürümünü huzur içinde bekliyoruz."
+  },
+  "hiddenOnPage": {
+    "message": "Bu sayfada gizlenen"
+  },
+  "blockingOn": {
+    "message": "Engelleme açık"
+  },
+  "whatToDo": {
+    "message": "Ne yapılsın"
+  },
+  "modeHide": {
+    "message": "Gizle"
+  },
+  "modeRemove": {
+    "message": "Sayfadan sil"
+  },
+  "coverPage": {
+    "message": "Başlığı eşleşirse tüm sayfayı kapat"
+  },
+  "keywordsLabel": {
+    "message": "Anahtar kelimeler (her satıra bir tane)"
+  },
+  "keywordsHint": {
+    "message": "Boşluklar tire, nokta ve alt çizgiyle de eşleşir; yani \"GTA 6\", \"gta-6\" yazısını da yakalar. Büyük/küçük harf fark etmez."
+  },
+  "pauseSite": {
+    "message": "Bu sitede duraklat"
+  },
+  "resumeSite": {
+    "message": "Bu sitede devam et"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "saved": {
+    "message": "Kaydedildi"
+  },
+  "statusOn": {
+    "message": "Engelleme açık"
+  },
+  "statusOff": {
+    "message": "Engelleme kapalı"
+  },
+  "modeSaved": {
+    "message": "Kaydedildi. Silinenleri geri getirmek için sayfayı yenile."
+  },
+  "keywordsSaved": {
+    "message": "$COUNT$ anahtar kelime kaydedildi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pausedOn": {
+    "message": "$HOST$ üzerinde duraklatıldı",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "resumedOn": {
+    "message": "$HOST$ üzerinde engelleme yeniden açık",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "overlayTitle": {
+    "message": "Spoiler engellendi"
+  },
+  "overlayText": {
+    "message": "Bu sayfa PC'de beklediğin oyunla ilgili görünüyor. Dayan, az kaldı."
+  },
+  "overlayBack": {
+    "message": "Beni buradan çıkar"
+  },
+  "overlayShow": {
+    "message": "Yine de bu sayfayı göster"
+  },
+  "aggressive": {
+    "message": "Agresif mod"
+  },
+  "aggressiveHint": {
+    "message": "Sadece GTA 6'yı değil, tüm Grand Theft Auto oyunlarını engelle (GTA V, GTA Online, San Andreas...)"
+  },
+  "aggressiveOn": {
+    "message": "Agresif mod açık: tüm GTA içerikleri engelleniyor"
+  },
+  "aggressiveOff": {
+    "message": "Agresif mod kapalı: sadece GTA 6 engelleniyor"
+  }
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="extName"></title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      width: 320px; margin: 0; padding: 16px;
+      font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: #121219; color: #ececf1;
+    }
+    h1 { font-size: 16px; margin: 0 0 4px; color: #ff5fa2; }
+    .sub { color: #9a9aa8; margin: 0 0 14px; }
+    .row { display: flex; align-items: center; justify-content: space-between; margin: 10px 0; gap: 8px; }
+    label { cursor: pointer; }
+    select, textarea, button {
+      font: inherit; color: inherit; background: #1d1d28;
+      border: 1px solid #383848; border-radius: 6px;
+    }
+    select { padding: 4px 6px; }
+    textarea { width: 100%; box-sizing: border-box; height: 150px; padding: 8px; resize: vertical; }
+    button { padding: 7px 12px; cursor: pointer; }
+    button.primary { background: #ff5fa2; border-color: #ff5fa2; color: #121219; font-weight: 600; }
+    .hint { color: #9a9aa8; font-size: 12px; margin: 4px 0 0; }
+    .count { font-size: 22px; font-weight: 700; color: #ff5fa2; }
+    .actions { display: flex; gap: 8px; justify-content: space-between; margin-top: 12px; }
+    #status { color: #7ee2a8; height: 16px; margin-top: 8px; font-size: 12px; }
+    hr { border: 0; border-top: 1px solid #2a2a38; margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="extName"></h1>
+  <p class="sub" data-i18n="popupSubtitle"></p>
+
+  <div class="row">
+    <span data-i18n="hiddenOnPage"></span>
+    <span class="count" id="count">0</span>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <label for="enabled" data-i18n="blockingOn"></label>
+    <input type="checkbox" id="enabled">
+  </div>
+  <div class="row">
+    <label for="mode" data-i18n="whatToDo"></label>
+    <select id="mode">
+      <option value="hide" data-i18n="modeHide"></option>
+      <option value="remove" data-i18n="modeRemove"></option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="blockWholePage" data-i18n="coverPage"></label>
+    <input type="checkbox" id="blockWholePage">
+  </div>
+  <div class="row">
+    <label for="aggressive"><span data-i18n="aggressive"></span><br><span class="hint" data-i18n="aggressiveHint"></span></label>
+    <input type="checkbox" id="aggressive">
+  </div>
+
+  <hr>
+
+  <label for="keywords" data-i18n="keywordsLabel"></label>
+  <textarea id="keywords" spellcheck="false"></textarea>
+  <p class="hint" data-i18n="keywordsHint"></p>
+
+  <div class="actions">
+    <button id="pause"></button>
+    <button id="save" class="primary" data-i18n="save"></button>
+  </div>
+  <div id="status"></div>
+
+  <script src="defaults.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

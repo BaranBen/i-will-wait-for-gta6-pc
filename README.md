@@ -1,0 +1,46 @@
+# I will wait for GTA 6 PC (Chrome extension)
+
+[Türkçe](README.tr.md)
+
+Hides or deletes anything about GTA 6 from every web page, including content that loads later
+(infinite scroll on YouTube, Reddit, X, Google, news sites).
+
+## Install (load unpacked)
+1. Download the latest zip from the Releases page and unzip it (or clone this repo).
+2. Open `chrome://extensions` in Chrome.
+3. Turn on **Developer mode** (top right).
+4. Click **Load unpacked** and pick the `gta6-blocker` folder (the one containing `manifest.json`).
+5. Pin the extension from the puzzle-piece menu so you can see the badge count.
+
+Works in Edge, Brave and Opera the same way.
+
+## What it does
+- Matches keywords anywhere in page text, image alt text, tooltips, aria labels and link URLs.
+- Hides the whole post / video tile / tweet / search result / list item that contains a match.
+- If the page title itself matches (e.g. you open a GTA 6 video), the page is covered and videos are paused.
+  You can click "Show this page anyway".
+- Also catches subreddits like `r/GTA6`, `r/GTA6Leaks`, `r/GTAVI`, hashtags like `#GTA6Trailer` and handles like `@GTA6News`.
+  Opening such a subreddit, or any page whose URL mentions GTA 6, covers the whole page. (`r/GTAViceCity` is not blocked.)
+- Badge on the icon shows how many items were hidden on the current tab.
+
+## Popup settings
+- **Blocking on/off**
+- **Hide it** (default, reversible) or **Delete it from the page** (removes elements; reload to bring them back).
+  Hide is safer on sites like YouTube and X, which can glitch when their elements are deleted.
+- **Cover whole page if its title matches**
+- **Keywords**: one per line. Spaces also match `-`, `_`, `.`, so `GTA 6` catches `gta-6`. Not case sensitive.
+  Matches whole words only, so `GTA VI` doesn't catch `GTA Vice City`.
+- **Aggressive mode**: blocks every Grand Theft Auto game, not just GTA 6 (GTA V, GTA5, GTA Online, San Andreas, Vice City, Los Santos, r/GTAOnline...).
+  Note that it also hides plain "GTA", which is used for other things too (e.g. Greater Toronto Area).
+- **Pause on this site**
+
+Default keywords: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
+
+The interface is in Turkish when Chrome is set to Turkish, and English otherwise.
+
+## Privacy
+The extension collects no data and makes no network requests. Your settings stay in Chrome storage.
+
+## Limits
+- Text drawn inside images or video frames (thumbnails with "VI" in the art) can't be read; only the surrounding text is checked.
+- Content inside closed shadow DOM is not scanned.

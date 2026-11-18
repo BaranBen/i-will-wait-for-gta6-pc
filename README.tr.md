@@ -1,0 +1,50 @@
+# GTA 6 PC'yi Bekleyeceğim (Chrome eklentisi)
+
+[English](README.md)
+
+GTA 6 PC'ye gelene kadar fragmanlar, sızıntılar ve hype ile uğraşmak istemeyenler için.
+Bu eklenti, gezdiğin her sayfadan GTA 6 ile ilgili her şeyi gizler veya siler. Sonradan yüklenen
+içerikleri de yakalar (YouTube, Reddit, X, Google, haber siteleri ve sonsuz kaydırma).
+
+## Kurulum
+1. **Releases** sayfasından son sürümün zip dosyasını indir ve klasöre çıkar (veya bu depoyu klonla).
+2. Chrome'da `chrome://extensions` adresini aç.
+3. Sağ üstten **Geliştirici modu**nu aç.
+4. **Paketlenmemiş öğe yükle**ye tıkla ve içinde `manifest.json` olan klasörü seç.
+5. Simgeyi görmek için yapboz menüsünden eklentiyi sabitle.
+
+Edge, Brave ve Opera'da da aynı şekilde çalışır.
+
+## Ne yapar?
+- Sayfa metninde, resim açıklamalarında (alt), ipuçlarında, erişilebilirlik etiketlerinde ve bağlantı adreslerinde anahtar kelimeleri arar.
+- Eşleşme içeren gönderiyi, video kutusunu, tweet'i, arama sonucunu veya liste öğesini tamamen gizler.
+- Sayfanın başlığı GTA 6 ile ilgiliyse (örneğin bir fragman videosu) tüm sayfayı kapatır ve videoyu durdurur.
+  İstersen "Yine de bu sayfayı göster" diyebilirsin.
+- `r/GTA6`, `r/GTA6Leaks`, `r/GTAVI` gibi subreddit'leri, `#GTA6Trailer` gibi hashtag'leri ve `@GTA6News` gibi hesapları da yakalar.
+  Bu tür bir subreddit'e veya adresinde GTA 6 geçen bir sayfaya girersen tüm sayfa kapatılır. (`r/GTAViceCity` engellenmez.)
+- Simgedeki sayı, o sekmede kaç öğenin gizlendiğini gösterir.
+
+## Ayarlar
+- **Engelleme açık/kapalı**
+- **Gizle** (varsayılan, geri alınabilir) veya **Sayfadan sil** (öğeleri kaldırır, geri getirmek için sayfayı yenile).
+  YouTube ve X gibi sitelerde "Gizle" daha sorunsuz çalışır.
+- **Başlığı eşleşirse tüm sayfayı kapat**
+- **Anahtar kelimeler**: her satıra bir tane. Boşluklar `-`, `_` ve `.` ile de eşleşir; yani `GTA 6`, `gta-6` yazısını da yakalar.
+  Büyük/küçük harf fark etmez. Sadece tam kelimeler eşleşir, yani `GTA VI`, `GTA Vice City`'yi yakalamaz.
+- **Agresif mod**: Sadece GTA 6'yı değil, tüm Grand Theft Auto oyunlarını engeller (GTA V, GTA5, GTA Online, San Andreas, Vice City, Los Santos, r/GTAOnline...).
+  Not: Düz "GTA" kelimesini de gizler.
+- **Bu sitede duraklat**
+
+Varsayılan anahtar kelimeler: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
+
+Arayüz, Chrome dili Türkçe ise Türkçe, değilse İngilizce görünür.
+
+## Sınırlamalar
+- Resim veya video karelerinin içine çizilmiş yazılar okunamaz; sadece çevresindeki metin kontrol edilir.
+- Kapalı shadow DOM içindeki içerik taranmaz.
+
+## Gizlilik
+Eklenti hiçbir veri toplamaz ve hiçbir yere bağlanmaz. Ayarların sadece Chrome'un kendi depolamasında tutulur.
+
+## Lisans
+MIT

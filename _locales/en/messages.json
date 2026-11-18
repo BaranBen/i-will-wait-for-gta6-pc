@@ -1,0 +1,104 @@
+{
+  "extName": {
+    "message": "I will wait for GTA 6 PC"
+  },
+  "extDescription": {
+    "message": "Hides or removes anything about GTA 6 from the pages you visit, so you can wait for the PC release in peace."
+  },
+  "popupSubtitle": {
+    "message": "Waiting for the PC release in peace."
+  },
+  "hiddenOnPage": {
+    "message": "Hidden on this page"
+  },
+  "blockingOn": {
+    "message": "Blocking on"
+  },
+  "whatToDo": {
+    "message": "What to do"
+  },
+  "modeHide": {
+    "message": "Hide it"
+  },
+  "modeRemove": {
+    "message": "Delete it from the page"
+  },
+  "coverPage": {
+    "message": "Cover whole page if its title matches"
+  },
+  "keywordsLabel": {
+    "message": "Keywords (one per line)"
+  },
+  "keywordsHint": {
+    "message": "Spaces also match dashes, dots and underscores, so \"GTA 6\" catches \"gta-6\". Case doesn't matter."
+  },
+  "pauseSite": {
+    "message": "Pause on this site"
+  },
+  "resumeSite": {
+    "message": "Resume on this site"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "statusOn": {
+    "message": "Blocking on"
+  },
+  "statusOff": {
+    "message": "Blocking off"
+  },
+  "modeSaved": {
+    "message": "Saved. Reload the page to restore deleted items."
+  },
+  "keywordsSaved": {
+    "message": "Saved $COUNT$ keywords",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pausedOn": {
+    "message": "Paused on $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "resumedOn": {
+    "message": "Blocking again on $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "overlayTitle": {
+    "message": "Spoiler blocked"
+  },
+  "overlayText": {
+    "message": "This page looks like it is about the game you are waiting for on PC. Stay strong."
+  },
+  "overlayBack": {
+    "message": "Get me out of here"
+  },
+  "overlayShow": {
+    "message": "Show this page anyway"
+  },
+  "aggressive": {
+    "message": "Aggressive mode"
+  },
+  "aggressiveHint": {
+    "message": "Block every Grand Theft Auto game, not just GTA 6 (GTA V, GTA Online, San Andreas...)"
+  },
+  "aggressiveOn": {
+    "message": "Aggressive mode on: all GTA content is blocked"
+  },
+  "aggressiveOff": {
+    "message": "Aggressive mode off: only GTA 6 is blocked"
+  }
+}
