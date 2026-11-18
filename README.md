@@ -20,6 +20,17 @@ Hides or deletes anything about GTA 6 from every web page, including content tha
 
 Works in Edge, Brave and Opera the same way.
 
+### Firefox
+Install it from Firefox Add-ons once it's approved. Until then, to try it temporarily:
+1. Download `i-will-wait-for-gta6-pc-firefox-<version>.zip` from the Releases page.
+2. Open `about:debugging#/runtime/this-firefox` and click **Load Temporary Add-on...**
+3. Pick the zip file. (Temporary add-ons are removed when Firefox restarts.)
+
+Requires Firefox 128 or newer.
+
+### Building
+`node scripts/build.mjs` creates the Chrome and Firefox zips in `dist/`.
+
 ## What it does
 - Matches keywords anywhere in page text, image alt text, tooltips, aria labels and link URLs.
 - Hides the whole post / video tile / tweet / search result / list item that contains a match.

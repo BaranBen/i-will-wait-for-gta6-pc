@@ -22,6 +22,14 @@ içerikleri de yakalar (YouTube, Reddit, X, Google, haber siteleri ve sonsuz kay
 
 Edge, Brave ve Opera'da da aynı şekilde çalışır.
 
+### Firefox
+Onaylandıktan sonra Firefox Eklentileri sayfasından kurabilirsin. O zamana kadar geçici olarak denemek için:
+1. Releases sayfasından `i-will-wait-for-gta6-pc-firefox-<sürüm>.zip` dosyasını indir.
+2. `about:debugging#/runtime/this-firefox` adresini aç ve **Geçici Eklenti Yükle...** butonuna tıkla.
+3. Zip dosyasını seç. (Geçici eklentiler Firefox yeniden başlayınca kaldırılır.)
+
+Firefox 128 veya daha yenisi gerekir.
+
 ## Ne yapar?
 - Sayfa metninde, resim açıklamalarında (alt), ipuçlarında, erişilebilirlik etiketlerinde ve bağlantı adreslerinde anahtar kelimeleri arar.
 - Eşleşme içeren gönderiyi, video kutusunu, tweet'i, arama sonucunu veya liste öğesini tamamen gizler.
