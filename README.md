@@ -1,6 +1,12 @@
-# I will wait for GTA 6 PC (Chrome extension)
+# I will wait for GTA 6 PC: GTA 6 spoiler blocker for Chrome
+
+![I will wait for GTA 6 on PC - Chrome extension that hides GTA 6 spoilers](assets/banner.jpg)
 
 [Türkçe](README.tr.md)
+
+**GTA 6 spoiler blocker** for Chrome, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console
+release spoiled? This free, open source extension hides **GTA 6 / GTA VI / Grand Theft Auto 6** spoilers, trailers,
+leaks, story details, news, YouTube videos, Reddit posts (r/GTA6) and tweets until you are ready to play.
 
 Hides or deletes anything about GTA 6 from every web page, including content that loads later
 (infinite scroll on YouTube, Reddit, X, Google, news sites).

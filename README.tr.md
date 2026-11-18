@@ -1,6 +1,13 @@
-# GTA 6 PC'yi Bekleyeceğim (Chrome eklentisi)
+# GTA 6 PC'yi Bekleyeceğim: Chrome için GTA 6 spoiler engelleyici
+
+![GTA 6 PC'yi Bekleyeceğim - GTA 6 spoilerlarını gizleyen Chrome eklentisi](assets/banner.jpg)
 
 [English](README.md)
+
+Chrome, Edge, Brave ve Opera için **GTA 6 spoiler engelleyici**. **GTA 6'yı PC'de** oynamak için bekliyorsan ve konsol
+sürümünden spoiler yemek istemiyorsan bu ücretsiz, açık kaynak eklenti **GTA 6 / GTA VI / Grand Theft Auto 6**
+spoilerlarını, fragmanlarını, sızıntılarını, hikaye detaylarını, haberleri, YouTube videolarını, Reddit gönderilerini
+(r/GTA6) ve tweet'leri sen hazır olana kadar gizler.
 
 GTA 6 PC'ye gelene kadar fragmanlar, sızıntılar ve hype ile uğraşmak istemeyenler için.
 Bu eklenti, gezdiğin her sayfadan GTA 6 ile ilgili her şeyi gizler veya siler. Sonradan yüklenen
